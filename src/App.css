@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.cart-item {
+  transition: transform 0.3s ease;
+}
+
+.cart-item.animate {
+  transform: scale(1.2);
+  /* You can add more animation like color or shadow */
+  box-shadow: 0 0 10px #4caf50;
+}

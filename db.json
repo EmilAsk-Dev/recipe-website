@@ -1,0 +1,377 @@
+{
+  "users": [
+    {
+      "id": "94bb",
+      "username": "user",
+      "password": "password",
+      "favorites": [
+        "17",
+        "16",
+        "30",
+        "29"
+      ]
+    }
+  ],
+  "menu": [
+    {
+      "id": "1",
+      "name": "Lemonad Med Gurka",
+      "price": 55,
+      "description": "Lemonad med färsk gurka och mynta",
+      "category": "dryck",
+      "popular": true,
+      "image": "/Img/1.png"
+    },
+    {
+      "id": "2",
+      "name": "Vatten",
+      "price": 30,
+      "description": "Kallt kolsyrat vatten med citron",
+      "category": "dryck",
+      "popular": true,
+      "image": "/Img/2.png"
+    },
+    {
+      "id": "3",
+      "name": "matcha latte",
+      "price": 45,
+      "description": "is matcha latte med havremjölk",
+      "category": "dryck",
+      "popular": true,
+      "image": "/img/3.png"
+    },
+    {
+      "id": "4",
+      "name": "Möglig Hamburgare",
+      "price": 55,
+      "description": "Hamburgare med mögelost, sallad och tomat",
+      "category": "huvudratt",
+      "popular": true,
+      "image": "/img/burger-2.png"
+    },
+    {
+      "id": "5",
+      "name": "Vaniljglass med Choklad",
+      "price": 55,
+      "description": "Vaniljglass toppad med varm chokladsås",
+      "category": "efterratt",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "6",
+      "name": "Svamp Hamburgare Med lök",
+      "price": 60,
+      "description": "Svampburgare med karamelliserad lök och aioli",
+      "category": "huvudratt",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "7",
+      "name": "Coca Cola",
+      "price": 25,
+      "description": "Kall Coca Cola, 33cl",
+      "category": "dryck",
+      "popular": true,
+      "image": "/Img/Cola.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Fanta",
+      "price": 25,
+      "description": "Kall Fanta, 33cl",
+      "category": "dryck",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "9",
+      "name": "Vatten med citron",
+      "price": 0,
+      "description": "Friskt vatten med en skiva citron",
+      "category": "dryck",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "10",
+      "name": "Carbonara",
+      "price": 155,
+      "description": "Pasta med bacon, grädde och parmesan",
+      "category": "huvudratt",
+      "popular": true,
+      "image": "/img/Carbonara.webp"
+    },
+    {
+      "id": "11",
+      "name": "Kebab Bowl",
+      "price": 160,
+      "description": "Ris, kebabkött, rödlök, vitlökssås, sallad",
+      "category": "huvudratt",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "12",
+      "name": "Lax Med sparris",
+      "price": 150,
+      "description": "Grillad lax med sparris och citron",
+      "category": "huvudratt",
+      "popular": true,
+      "image": "/img/Salmon.webp"
+    },
+    {
+      "id": "13",
+      "name": "Kycklingwrap",
+      "price": 95,
+      "description": "Tunnbröd med kyckling, sallad och dressing",
+      "category": "huvudratt",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "14",
+      "name": "Halloumiburgare",
+      "price": 125,
+      "description": "Bröd, halloumi, sallad, tomat och dressing",
+      "category": "huvudratt",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "15",
+      "name": "Chili Cheese",
+      "price": 49,
+      "description": "Friterade ostbollar med chilismak",
+      "category": "sides",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "16",
+      "name": "Lökringar",
+      "price": 39,
+      "description": "Knapriga lökringar med dip",
+      "category": "sides",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "17",
+      "name": "Majskolv",
+      "price": 35,
+      "description": "Grillad majskolv med smör",
+      "category": "sides",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "18",
+      "name": "Sallad",
+      "price": 45,
+      "description": "Fräsch grönsallad med tomat och gurka",
+      "category": "sides",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "19",
+      "name": "Brownie",
+      "price": 50,
+      "description": "Kladdig chokladbrownie med valnötter",
+      "category": "efterratt",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "20",
+      "name": "Pannacotta",
+      "price": 65,
+      "description": "Vaniljpannacotta med hallonsås",
+      "category": "efterratt",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "21",
+      "name": "Äppelpaj",
+      "price": 60,
+      "description": "Serveras varm med vaniljsås",
+      "category": "efterratt",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "22",
+      "name": "Chokladboll",
+      "price": 25,
+      "description": "Klassisk svensk chokladboll med kokos",
+      "category": "efterratt",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "23",
+      "name": "Jordgubbsglass",
+      "price": 55,
+      "description": "Jordgubbsglass med topping",
+      "category": "efterratt",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "24",
+      "name": "Pepsi Max",
+      "price": 25,
+      "description": "Kall Pepsi Max, 33cl",
+      "category": "dryck",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "25",
+      "name": "Loka Citron",
+      "price": 20,
+      "description": "Kolsyrat vatten med citronsmak",
+      "category": "dryck",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "26",
+      "name": "Islatte",
+      "price": 39,
+      "description": "Kall kaffe med mjölk och is",
+      "category": "dryck",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "27",
+      "name": "Smoothie Jordgubb",
+      "price": 49,
+      "description": "Jordgubbssmoothie med banan och yoghurt",
+      "category": "dryck",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "28",
+      "name": "Apelsinjuice",
+      "price": 30,
+      "description": "Färskpressad apelsinjuice",
+      "category": "dryck",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "29",
+      "name": "Kycklingspett",
+      "price": 80,
+      "description": "2 spett med grillad kyckling och jordnötssås",
+      "category": "sides",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "30",
+      "name": "Nachos med ost",
+      "price": 55,
+      "description": "Varm ostsås över krispiga nachos",
+      "category": "sides",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "31",
+      "name": "Kall pasta med pesto",
+      "price": 125,
+      "description": "Pastasallad med pesto, tomat och mozzarella",
+      "category": "huvudratt",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "32",
+      "name": "Falafel Bowl",
+      "price": 140,
+      "description": "Falafel, ris, hummus, picklad rödlök",
+      "category": "huvudratt",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "33",
+      "name": "Linsgryta",
+      "price": 135,
+      "description": "Indisk-inspirerad linsgryta med koriander",
+      "category": "huvudratt",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "34",
+      "name": "Grillad lax med citron",
+      "price": 185,
+      "description": "Serveras med potatis och örtsås",
+      "category": "huvudratt",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "35",
+      "name": "Varm choklad",
+      "price": 35,
+      "description": "Med vispgrädde",
+      "category": "dryck",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "36",
+      "name": "Mango Lassi",
+      "price": 40,
+      "description": "Indisk yoghurtdryck med mango",
+      "category": "dryck",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "37",
+      "name": "Churros",
+      "price": 60,
+      "description": "Friterade churros med socker och chokladsås",
+      "category": "efterratt",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "38",
+      "name": "Glassbägare 3 kulor",
+      "price": 65,
+      "description": "Välj mellan choklad, vanilj, jordgubb",
+      "category": "efterratt",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "39",
+      "name": "Grönsakssticks med dipp",
+      "price": 40,
+      "description": "Morot, gurka och paprika med dip",
+      "category": "sides",
+      "popular": false,
+      "image": null
+    },
+    {
+      "id": "40",
+      "name": "Mozzarellasticks",
+      "price": 50,
+      "description": "Friterade oststicks med tomatsås",
+      "category": "sides",
+      "popular": false,
+      "image": null
+    }
+  ]
+}
