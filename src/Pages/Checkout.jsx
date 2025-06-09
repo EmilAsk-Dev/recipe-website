@@ -11,15 +11,15 @@ export default function CheckoutPaymentPage({ cart, setCart }) {
   const [appliedDiscount, setAppliedDiscount] = useState(0);
   const [discountMessage, setDiscountMessage] = useState("");
 
-useEffect(() => {
-  if (currentStep === 'confirmation') {
-    confetti({
-      particleCount: 100,
-      spread: 70,
-      origin: { y: 0.6 }
-    });
-  }
-}, [currentStep]);
+  useEffect(() => {
+    if (currentStep === 'confirmation') {
+      confetti({
+        particleCount: 100,
+        spread: 70,
+        origin: { y: 0.6 }
+      });
+    }
+  }, [currentStep]);
 
   // Payment form state
   const [paymentMethod, setPaymentMethod] = useState('card');
@@ -144,7 +144,7 @@ useEffect(() => {
     );
   }
 
-  // Main checkout page with everything
+
   return (
     <div className="flex flex-col min-h-screen p-4 max-w-4xl mx-auto">
       <h2 className="text-2xl font-bold mb-6">Kassa & Betalning</h2>

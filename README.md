@@ -1,70 +1,11 @@
-# Getting Started with Create React App
+Jag byggde projektet med React och valde svenska som språk i hela gränssnittet. Jag valde att använde en rak struktur med pages, components och specifik CSS per komponent. För datalagring använde jag en db.json-fil som fungerade som ett simpelt backend-API. Detta var tillräckligt för mitt syfte och lät mig fokusera på frontenden utan att fokusera på databasen överdrivet mycket.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Jag använde flera moderna bibliotek och verktyg, bland annat axios för HTTP-anrop, react-router-dom för navigering, swiper för bildkaruseller och canvas-confetti för att skapa en visuell effekt när en order genomfördes.
 
-## Available Scripts
+En utmaning för mig var att tänka i komponenter. Jag har tidigare inte byggt appar på det här sättet, och det kändes ovant att bryta ner gränssnittet i små, återanvändbara delar. Men jag lyckades ändå till exempel skapa en återanvändbar navbar-komponent, vilket kändes som ett steg i rätt riktning. En annan sak jag hade lite svårare med var CSS – särskilt felsökning. Ibland “slutar bara saker funka” utan att jag snabbt ser varför, vilket gjorde att vissa layoutproblem tog längre tid än nödvändigt att lösa.
 
-In the project directory, you can run:
+Jag avände ju också Figma i det här projektet, men mest som prototypverktyg. Jag kände mig inte helt bekväm med att ta en Figma-design hela vägen till produktion, men jag har definitivt lärt mig mer om vikten av design och struktur.
 
-### `npm start`
+React påminde mycket om hur man bygger med Node.js och Express, vilket gjorde det lättare att förstå vissa saker. Jag valde att arbeta med “code behind”-liknande struktur där logik och rendering finns i samma fil – detta för att jag ville hålla det enkelt och förstå hur React fungerar under huven innan jag ger mig på mer avancerade patterns.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Sammanfattningsvis är jag nöjd med projektet. Jag fick till en clean design och användarupplevelsen blev enkel och tydlig – precis som jag ville. Om jag hade mer tid skulle jag finslipa vissa detaljer i CSS, till exempel lägga till mer padding i favoritsidan så det inte ser så ihoptryckt ut. Men jag känner verkligen att jag utvecklats under detta projekt, både tekniskt och i hur jag planerar och reflekterar över min kod.

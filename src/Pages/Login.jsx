@@ -22,14 +22,14 @@ const Login = ({ setUser }) => {
         `http://localhost:5000/users?username=${form.username}&password=${form.password}`
       );
       if (res.data.length > 0) {
-      console.log("Login successful:", res.data[0]);
-      setUser(res.data[0]);
-      localStorage.setItem('user', JSON.stringify(res.data[0]));      
-      window.location.href = '/menu';
-      } 
-  else {
-    setError('Invalid username or password');
-  }
+        console.log("Login successful:", res.data[0]);
+        setUser(res.data[0]);
+        localStorage.setItem('user', JSON.stringify(res.data[0]));
+        window.location.href = '/menu';
+      }
+      else {
+        setError('Invalid username or password');
+      }
     } catch (err) {
       setError('Server error, please try again later.');
     } finally {
